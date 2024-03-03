@@ -14,7 +14,8 @@ const Hero = () => {
   const [timeOfLastClick, setTimeOfLastClick] = useState(Date.now());
   const downloadPdf = useRef(null);
 
-  const handleDownload = () => {
+  const handleDownload = (e) => {
+    e.preventDefault(); // Prevents the default behavior of the anchor tag
     window.open("/src/components/CV.pdf", "_blank");
   };
   
@@ -95,7 +96,7 @@ const Hero = () => {
 
 <a
       className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black dark:bg-white/10"
-      href="src/co"
+      href="/src/components/CV.pdf"
       download="CV.pdf"
       onClick={handleDownload}
     >
