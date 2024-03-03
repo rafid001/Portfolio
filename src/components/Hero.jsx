@@ -38,7 +38,7 @@ const Hero = () => {
         <p className="text-[1.1rem] md:text-[1.8rem] lg:text-[2rem] md:text-xl relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 md:py-3 w-[70%] text-center">
           I handcraft each line of code with the idea to solve problem.
         </p>
-        <p className="md:text-[1.2rem] lg:text-[1.3rem] bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-3 w-[70%] text-center">
+        {/* <p className="md:text-[1.2rem] lg:text-[1.3rem] bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-3 w-[70%] text-center">
           Its currently
           <span className="font-bold mx-1">
             <Clock
@@ -49,7 +49,7 @@ const Hero = () => {
             />
           </span>{" "}
           here in Lucknow, India📍
-        </p>
+        </p> */}
 
 
         <motion.div
