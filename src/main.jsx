@@ -6,8 +6,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Analytics>
+    <Analytics/>
       <App/>
-    </Analytics>
   </React.StrictMode>,
 )
