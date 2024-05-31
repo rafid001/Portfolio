@@ -7,7 +7,7 @@ export default function Techstack() {
         const words = description.split(" ");
         const trimmedWords = words.slice(0, limit);
         return trimmedWords.join(" ");
-      };
+    };
   return (
     <div>
          <div className="flex flex-col gap-6 w-full">

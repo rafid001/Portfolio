@@ -13,14 +13,14 @@ import Projectspage from "./components/Projectspage";
 export default function App() {
   return (
     <div>
-      <Header/>
       <BrowserRouter>
+        <Header />
         <Routes>
-          <Route path="/" element={<Hero/>}/>
-          <Route path="/about" element={<Page/>}/>
-          <Route path="/links" element={<Links/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/projects" element={<Projectspage/>}/>
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<Page />} />
+          <Route path="/links" element={<Links />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projectspage />} />
         </Routes>
       </BrowserRouter>
     </div>
